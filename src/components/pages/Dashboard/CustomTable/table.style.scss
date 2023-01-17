@@ -1,0 +1,10 @@
+@import '../../../../assets/styles/index.scss';
+
+.ant-table-row {
+    cursor: pointer;
+    &-active {
+        .ant-table-cell {
+            background: $primaryGreen !important;
+        }
+    }
+}

@@ -1,0 +1,319 @@
+{
+  "ok": "אישור",
+  "cancel": "בטל",
+  "save": "שמור",
+  "saveAndBack": "סיים ושמור",
+  "back": "סיים",
+  "changesHasBeenSaved": "שינויים נשמרו",
+  "dates": "תאריכים",
+  "exportToExcel": "יצוא  לאקסל",
+  "search": "חפש",
+  "navMenu" : {
+    "currentTradingDay": "פרטי יום מסחר",
+    "reports": "דוחות",
+    "salesReport": "דוח מכירות",
+    "ordersReport": "דוח הזמנות",
+    "itemsReport": "דוח פריטים",
+    "keyboardEditor": "תכנון מקלדת",
+    "keyboardList": "רשימת מקלדות",
+    "htmlEditor": "עורך HTML",
+    "dailyInstruction": "תדריך יומי",
+    "paymentKeyboardEditor": "מקלדת תשלומים",
+    "settings": "הגדרות",
+    "zReport": "דוח סגירות קופה",
+    "catalog": "קטלוג",
+    "sellers": "מוכרנים",
+    "ticketReports": "דוח פניות",
+    "ordersReports": "דוח הזמנות",
+    "targetReports": "דוח יעדים"
+  },
+  "dashboard": {
+    "datePickerPlaceholder": "תאריך אחר",
+    "dailyStats": {
+      "totalRevenue": "סה'כ הזמנות",
+      "totalOrders": "כמות הזמנות",
+      "lastOrderTime": "שעת הזמנה אחרונה",
+      "orderAVG": "ממוצע להזמנה",
+      "ordersPerHour": "כמות הזמנות לשעה",
+      "hourRedemption": "פדיון שעתי",
+      "incomingCalls": "שיחות נכנסות",
+      "callsPerHours": "ממוצע שיחות לשעה",
+      "callsOrdersConversion": "אחוז סגירת שיחות"
+    },
+    "dailyUserStats": {
+      "seller": "נציג מכירות",
+      "name": "שם נציג",
+      "percent": "יינות"
+    },
+    "userTargets": {
+      "currentPercent": "עמידה ביעד",
+      "currentValue": "סה’כ נמכר",
+      "targetValue": "סה’כ יעד",
+      "targetType1": "לפי סבכום",
+      "targetType2": "לפי כמות",
+      "status0": "רחוק",
+      "status1": "קרוב",
+      "status2": "הושג",
+      "shiftCurrentValue": "סה’כ נמכר למשמרת",
+      "shiftTargetValue": "סה’כ יעד למשמרת",
+      "shiftAVGPercent": "עמידה ביעד למשמרת"
+    }
+  },
+  "sellers": {
+    "SellerCode": "קוד",
+    "Name": "שם",
+    "CellPhone": "נייד",
+    "Code": "קוד פריט",
+    "IsNotActive": "לא פעיל",
+    "title": "איש מכירות",
+    "sellersTableTitle": "אנשי מכירות"
+  },
+  "reports": {
+    "saleReports": {
+      "salesReports": "דוח מכירות",
+      "deviceTranReference": "מספר עסקה",
+      "tranType": "סוג מסמך",
+      "tranDate": "תאריך",
+      "operatorNumber": "שם מוכרן",
+      "sellerNumber": "מספר מוכרן",
+      "branchName": "סניף",
+      "memberName": "לקוח",
+      "totalAmount": "סה‘כ"
+    },
+    "targetReports": {
+      "columns": {
+        "Bonus": "תגמול",
+        "Description": "יעד",
+        "Bonuses": "סה\"כ בונוסים"
+      }
+    },
+    "ordersReports": {
+      "OrdersJournal": "דוח הזמנות",
+      "OrdersByProperties": "דוח מאפיינים",
+      "ItemsReport": "דוח פרטים",
+      "ItemsRevenueReportTitle": "דוח רווחיות לפריטים",
+      "JournalReports": {
+        "columns": {
+          "BranchNetCode": "חנות",
+          "CreatedDate": "תאריך רישום",
+          "PrintedDate": "שעת הדפסה",
+          "OrderNumber": "מספר מסמך",
+          "CardNumber": "לקוח",
+          "MemberName": "תאור",
+          "DeliveryRecipientName": "שם מקבל",
+          "OrderAddress": "כתובת",
+          "SellerName": "מוכר",
+          "ItemsTotal": "כמות פריטים",
+          "DiscountTotal": "סכום הנחה",
+          "DiscountPercent": "אחוז הנחה",
+          "TotalBeforeVat": "סה'כ כולל מע'מ",
+          "TotalAfterVat": "סה'כ ללא מע'מ",
+          "StatusDescription": "סטטוס",
+          "DeliveryDate": "שעת אספקה",
+          "SuppliedDate": "שעת מסירה",
+          "SuppliedHour": "תאריך מסירה",
+          "CancelReason": "סיבה לביטול"
+        }
+      },
+      "OrdersTotalReport": {
+        "columns": {
+          "BranchNetCode": "סניף",
+          "BranchName": "שם סניף",
+          "TotalOrders": "כמות הזמנות",
+          "TotalAmountAfterVat": "סה\"כ",
+          "TotalAmountBeforeVat": "סה\"כ לפני מע\"מ",
+          "TotalItems": "סה\"כ פריטים",
+          "OrderAVG": "ממוצע להזמנה"
+        }
+      },
+      "ItemsTotalReport": {
+        "columns": {
+          "ItemCode": "קוד פריט",
+          "ItemDescription": "שם פריט",
+          "TotalQuantity": "כמות",
+          "TotalAmount": "סה\"כ"
+        }
+      },
+      "ItemsRevenueReport": {
+        "columns": {
+          "ItemCode": "קוד פריט",
+          "ItemDescription": "שם פריט",
+          "TotalQuantity": "כמות",
+          "TotalAmount": "סה\"כ",
+          "TotalAmountBeforeVat": "סה\"כ לפני מע\"מ",
+          "Cost": "עלות",
+          "Revenue": "רווח גולמי",
+          "RevenuePercent": "רווח גולמי %"
+        }
+      },
+      "filters": {
+        "CreatedDate": "תאריך פתיחה",
+        "SupplyDate": "תאריך אספקה",
+        "Status": "סטטוס",
+        "DeliveryType": "סוג משלוח",
+        "Branch": "סניף מייצר",
+        "DeliveryBranch": "סניף אחראי",
+        "FromAmount": "מסכום",
+        "ToAmount": "עד סכום",
+        "Seller": "נציג",
+        "Customer": "לקוח",
+        "Order": "הזמנה",
+        "Category": "קטגוריה",
+        "Item": "פריט",
+        "PaymentMethod": "סוג תשלום",
+        "MemberType": "סוג לקוח",
+        "TransactionType": "סוג עסקה",
+        "CancelReason": "סיבת ביטול",
+        "City": "עיר",
+        "Promotion": "מבצע"
+      }
+    },
+    "ticketReports": {
+      "branchView": "תצוגה לפי סניפים",
+      "branchViewTitle": "דוח פניות",
+      "journalView": "יומן פניות",
+      "journalViewTitle": "יומן פניות",
+      "branchName": "סניף",
+      "totalOrders": "כמות הזמנות",
+      "totalTickets": "כמות פניות",
+      "ticketsPerOrder": "יחס פניה להזמנה",
+      "CategoryName": "סוג פניה",
+      "TotalTickets": "כמות",
+      "SysId": "מספר פניה",
+      "CreatorUserDescription": "נוצר ע",
+      "CreatedDate": "תאריך פתיחה",
+      "MemberName": "שם לקוח",
+      "TicketTypeDescription": "סוג פניה",
+      "RequestTypeDescription": "מהות בקשה",
+      "RequestReason": "סיבה",
+      "BranchName": "סניף",
+      "StatusDescription": "סטטוס",
+      "OwnerUserDescription": "גורם מטפל",
+      "TotalTicketsNumber": "סה״כ פניות",
+      "InformationType": "אופן תיעוד",
+      "ItemCode": "קוד פריט",
+      "filterTitles": {
+        "OpenDateRanges": "ת. פתיחה",
+        "TicketRequestTypes": "סוג פניה",
+        "StatusList": "סטטוס",
+        "BranchList": "סניף",
+        "ItemCode": "פריט",
+        "InformationTypes": "אופן תיעוד"
+      }
+    },
+    "ZReports": {
+      "ZReport": "דוח Z",
+      "Branch": "סניף",
+      "Station": "עמדה",
+      "Date": "תאריך",
+      "Payments": "חיובים",
+      "Refunds": "זיכויים",
+      "Balance": "סה‘כ מכירות",
+      "TotalCash": "סה'כ מזומן",
+      "Vat": "מע‘מ",
+      "Status": "סטטוס",
+      "ZReportDetails": {
+        "AccountName": "שם העסק",
+        "ID": "ת'ז או ח'פ",
+        "Phone": "טלפון",
+        "Address": "כתובת",
+        "POSName": "מסוף",
+        "ReportDate": "תאריך יצירת הדו'ח",
+        "UserName": "שם מבצע דו'ח",
+        "Totals": "סכום",
+        "Details": "פירוט",
+        "TotalPayments": "חיובים",
+        "TotalRefunds": "זיכויים",
+        "Balance": "מכירות",
+        "Vat": "מע'מ",
+        "PaymentsOnly": "חיוביים בלבד",
+        "RefundsOnly": "זיכויים בלבד",
+        "Cash": "מזומן",
+        "Cheques": "שיקים",
+        "Credit": "אשראי",
+        "Other": "אחר",
+        "PrintAndExist": "הדפסה ויציאה",
+        "CloseDay": "סגירת קופה",
+        "Exit": "יציאה"
+
+      }
+    },
+    "catalog": {
+      "filterTitle": "חפש",
+      "ItemCode": "קוד פריט",
+      "Description": "Description",
+      "Price": "מחיר",
+      "catalogTableTitle": "קטלוג פריטים",
+      "catalogItemDetails": {
+        "title": "מאפייני פריט",
+        "Code": "קוד פריט",
+        "IsNotActive": "לא פעיל",
+        "BarCode": "בר קוד",
+        "Description": "תאור פריט",
+        "Price": "מחיר",
+        "CategoryCode": "קטגוריה",
+        "Add": "הוסף",
+        "Update": "עדכן",
+        "Exit": "יציאה"
+      }
+    }
+  },
+  "keyboardList": {
+    "fromDate": "מ תאריך",
+    "toDate": "עד תאריך",
+    "activeHours": "שעות פעילות",
+    "dataEditor": "עריכת פריטים",
+    "itemsEditor": "עריכת תאריכים",
+    "createNewKeyboard": "הוסף מקלדת חדשה",
+    "duplicateKeyboard": "שכפל מקלדת",
+    "deleteKeyboard": "מחלק מקלדת",
+    "areYouSureYouWantDeleteKeyboard": "האם אתה בטוח שברצונך למחוק מקלדת?"
+  },
+  "keyboard": {
+    "addNewCategory": "הוסף קטגוריה חדשה",
+    "addProductTooltip": "הוסף קטגוריה / פריט",
+    "addSubProductTooltip": "הוסף פריט נלווה",
+    "editCategoryTooltip": "עורך קטגוריה",
+    "keyboardName": "שם מקלדת"
+  },
+  "paymentKeyboard": {
+    "paymentMethods": "אמצעי תשלום",
+    "selectedPaymentMethods": "אמצעי תשלום זמינים",
+    "favoritePaymentMethods": "אמצעי תשלום מועדפים",
+    "item": {
+      "selectPaymentTooltip": "בחר אמצעי תשלום",
+      "favoritePaymentTooltip": "אמצעי תשלום מעדיף"
+    },
+    "payments": {
+      "Cash": "מזומן",
+      "RegularCredit": "כרטיס אשראי",
+      "EMVCredit": "כרטיס אשראי",
+      "PhoneCredit": "כרטיס אשראי ידני",
+      "Cheque": "ציק",
+      "RefundNote": "זיכוי",
+      "GiftCard": "כרטיס מתנה",
+      "CreditNote": "זיכוי",
+      "PayPal": "PayPal",
+      "BuyMe": "ביי מי",
+      "ExternalApplication": "אפליקציה חיצונית",
+      "WithoutReceipt": "ללא תקבול",
+      "Points": "תשלום בנקודות",
+      "DirectDebit": "הוייק",
+      "BankTransfer": "העברה בנקאית",
+      "Obligo": "אובליגו",
+      "HighTechZone": "היטק זון",
+      "Praxell": "פרקסל",
+      "PowerCard": "PowerCard",
+      "DTS": "DTS"
+    }
+  },
+  "addKeyboardItemModal": {
+    "addItemCategory": "הוספת קטגוריה/פריט",
+    "isCategory": "קטגוריה",
+    "category": "קטגוריה",
+    "product": "פריט",
+    "areYouSureDeleteProduct": "האם אתה בטוח?",
+    "areYouSureDeleteCategory": "שים לב , הקטגוריה תמחק כולל הפריטים, הם להמשיך את הפעולה?",
+    "areYouSureGoBackWithoutSave": "שים לב , השינויים שנעשו לא ישמרו , הטם להמשיך?"
+  }
+}
